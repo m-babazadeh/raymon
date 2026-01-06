@@ -54,7 +54,7 @@ https://jsonplaceholder.typicode.com/users
 ```bash
 open index.html
 ```
-### 🌐 Demo آنلاین
+### 🌐 Demo
 [کلیک کنید :)](https://m-babazadeh.github.io/raymon/)
 
 ---
