@@ -1,7 +1,7 @@
 # Raymon – Frontend Coding Task
 
 این پروژه در پاسخ به یک تسکت از شرکت **رایمون** پیاده‌سازی شده است.  
-هدف پروژه دریافت لیست کاربران از یک REST API و نمایش آن‌ها به صورت ریسپانسیو با استفاده از HTML، Tailwind CSS و JavaScript خالص (Vanilla JS) است.
+هدف پروژه دریافت لیست کاربران از یک REST API و نمایش آن‌ها به صورت ریسپانسیو با استفاده از HTML، Tailwind CSS و JavaScript (Vanilla) است.
 
 ---
 
