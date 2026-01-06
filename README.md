@@ -16,7 +16,7 @@
 
 ---
 
-## 🔌 API مورد استفاده
+##  API مورد استفاده
 داده‌ها از API زیر دریافت می‌شوند:
 
 ```
@@ -54,7 +54,7 @@ https://jsonplaceholder.typicode.com/users
 ```bash
 open index.html
 ```
-### 🌐 Demo
+###  Demo
 [کلیک کنید :)](https://m-babazadeh.github.io/raymon/)
 
 ---
