@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raymon Project</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="min-h-screen flex flex-col bg-gray-100">
+    <!-- loader -->
+    <div
+      id="loader"
+      class="fixed inset-0 z-50 hidden items-center justify-center bg-white/80"
+    >
+      <div
+        class="w-[250px] h-[250px] rounded-full border-[20px] border-gray-200 border-t-blue-600 border-b-blue-600 animate-spin"
+      ></div>
+    </div>
+    <!-- header -->
+    <header class="bg-blue-400 text-white py-4">
+      <div
+        class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4"
+      >
+        <div class="w-full md:w-72">
+          <input
+            type="text"
+            placeholder="Search"
+            class="w-full px-4 py-2 rounded-lg bg-white text-gray-800 focus:outline-none"
+          />
+        </div>
+        <ul class="flex gap-4">
+          <li>
+            <a
+              href="#"
+              class="px-6 py-2 bg-gray-500 rounded-lg font-semibold tracking-wider transition"
+            >
+              Users
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- main -->
+    <main class="flex-grow px-4 md:px-16 py-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div
+          class="p-4 bg-gradient-to-t from-gray-300 to-blue-200 shadow-md rounded-md"
+        >
+          <h3 class="text-lg font-semibold mb-2">User 1</h3>
+          <p>Name:</p>
+          <p>Email:</p>
+          <p>City:</p>
+        </div>
+        <div
+          class="p-4 bg-gradient-to-t from-gray-300 to-blue-200 shadow-md rounded-md"
+        >
+          <h3 class="text-lg font-semibold mb-2">User 2</h3>
+          <p>Name:</p>
+          <p>Email:</p>
+          <p>City:</p>
+        </div>
+        <div
+          class="p-4 bg-gradient-to-t from-gray-300 to-blue-200 shadow-md rounded-md"
+        >
+          <h3 class="text-lg font-semibold mb-2">User 3</h3>
+          <p>Name:</p>
+          <p>Email:</p>
+          <p>City:</p>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="bg-gray-500 text-white py-6">
+      <div class="text-center text-sm">
+        All rights of this site belong to Raymon Holding
+      </div>
+    </footer>
+  </body>
+</html>
