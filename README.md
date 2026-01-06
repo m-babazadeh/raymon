@@ -64,7 +64,7 @@ open index.html
 - [x] نمایش Loading
 - [x] طراحی Responsive
 - [x] استفاده از Tailwind CSS
-- [x] JavaScript خالص (Vanilla)
+- [x] JavaScript (Vanilla)
 
 ---
 
